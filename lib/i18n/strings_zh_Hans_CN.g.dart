@@ -379,11 +379,11 @@ class Translations$home$sort$zh_Hans_CN extends Translations$home$sort$en {
 	final TranslationsZhHansCn _root; // ignore: unused_field
 
 	// Translations
-	@override String get sortBy => '按...排序';
-	@override String get nameAToZ => '姓名（A-Z）';
-	@override String get nameZToA => '姓名（从 A 到 Z）';
-	@override String get lastModifiedNewToOld => '编辑（最新优先）';
-	@override String get lastModifiedOldToNew => '编辑（按最旧的排序）';
+	@override String get sortBy => '排序方式';
+	@override String get nameAToZ => '名称（A-Z）';
+	@override String get nameZToA => '名称（Z-A）';
+	@override String get lastModifiedNewToOld => '修改时间（最新优先）';
+	@override String get lastModifiedOldToNew => '修改时间（最早优先）';
 }
 
 // Path: home.layout
@@ -393,9 +393,9 @@ class Translations$home$layout$zh_Hans_CN extends Translations$home$layout$en {
 	final TranslationsZhHansCn _root; // ignore: unused_field
 
 	// Translations
-	@override String get layout => '布局';
-	@override String get masonryGrid => '砌体网格';
-	@override String get simpleGrid => '简单网格';
+	@override String get layout => '布局方式';
+	@override String get masonryGrid => '瀑布流网格';
+	@override String get simpleGrid => '网格视图';
 }
 
 // Path: sentry.consent
